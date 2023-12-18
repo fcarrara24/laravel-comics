@@ -1,1 +1,28 @@
 <div>Header <i class="fa-solid fa-home"></i></div>
+
+<div id="containerHeader">
+        <div class=" d-flex flex-row justify-content-evenly container">
+            <div class="subcontainer-header d-flex flex-row justify-content-start align-items-center w-max-content">
+                <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="jumbotron">
+            </div>
+            <div class="d-flex flex-row justify-content-between gap-5 " >
+                @foreach ($database["categories"] as $category)
+                <div  class=" d-flex flex-column justify-content-between ">
+                    <div></div>
+                    <div>{{ $category["title"] }}</div>
+                    <div class="bottom-color " style="height: 3px;" class="">
+                    </div>
+                </div>
+                @endforeach
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-end " >
+                <div class="d-flex flex-row justify-content-end align-content-center">
+                    <div>
+                        Search
+                    </div>
+                    <i class="fa-solid fa-search"></i>
+                </div>
+
+            </div>
+        </div>
+</div>
