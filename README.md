@@ -49,3 +49,30 @@ git push -u origin main
 
 
 ```
+# creo nuova reo da template
+# clono 
+```bash
+composer install
+```
+
+copia .env.example in .env
+
+```bash
+php artisan key:generate
+npm install
+```
+
+per runnare il codice 
+```bash 
+npm run dev
+php artisan serve
+```
+
+
+consegna di oggi:
+
+Create un nuovo progetto Laravel. Concentratevi sul layout: create un file di layout in cui inserire la struttura comune di tutte le pagine del sito web (tag head, tag body, ...) eventualmente includendo header e footer tramite due partials.
+Create poi una rotta per visualizzare la lista di tutti i fumetti recuperati da un file inserito nella cartella config e abbellite il tutto sfruttando Sass.
+Bonus:
+Create più pagine istituzionali che condividono lo stesso layout (utilizzando il routing)
+Buon pomeriggio e buon lavoro !
