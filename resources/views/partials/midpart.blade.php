@@ -1,4 +1,4 @@
-<div class=" bg-primary">
+<div class="bg-primary">
     <div class="container d-flex felx-row justify-content-between py-5 gap-5" style="padding: 30px">
         @foreach ($database['fascia'] as $elemento)
             <div class="elemento-fascia">

@@ -172,4 +172,22 @@ return [
             'link' => '../../resources/img/buy-dc-power-visa.svg',
         ],
     ],
+    'footer-categories' => [
+        [
+            'title' => 'DC COMICS',
+            'link' => ['Character', 'Comics', 'Movies', 'TV', 'Games', 'Videos', 'News'],
+        ],
+        [
+            'title' => 'SHOP',
+            'link' => ['Shop DC', 'shop DC Collectibles'],
+        ],
+        [
+            'title' => 'DC',
+            'link' => ['Character', 'Comics', 'Movies', 'TV', 'Games', 'Videos', 'News'],
+        ],
+        [
+            'title' => 'SITES',
+            'link' => ['Character', 'Comics', 'Movies', 'TV', 'Games', 'Videos', 'News'],
+        ],
+    ],
 ];

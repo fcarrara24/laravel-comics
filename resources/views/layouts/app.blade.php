@@ -20,7 +20,9 @@
 @include('partials.jumbotron')
 @include('partials.main')
 @include('partials.midpart')
+@include('partials.bottom')
 @include('partials.footer')
+
 
 </body>
 
