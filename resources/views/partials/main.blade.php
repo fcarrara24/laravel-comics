@@ -4,12 +4,12 @@
         <div class="my-series bg-primary text-white px-5 py-1">
             <h3>CURRENT SERIES</h1>
         </div>
-        <div class="row  d-flex ">
+        <div class="row ">
             @foreach ($database['comics'] as $comic)
-                <div class="d-flex flex-column w-25">
-                    <div class="img-container " style="max-width: 100%; ">
+                <div class="w-25" style=" max-height: 60%;" >
+                    <div class="img-container  overflow-hidden " style="max-width: 100%; max-height: 60%; ">
                         <img src="{{ $comic['thumb'] }}" alt="$comic['title']" srcset=""
-                            style="max-width: 100%; width: 100%; ">
+                            style="max-width: 100%; width: 100%; max-height: 60%">
                     </div>
                     <div class=" text-white">{{ $comic['title'] }}</div>
                 </div>
