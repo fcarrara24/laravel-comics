@@ -150,4 +150,26 @@ return [
             'title' => 'SHOP',
         ],
     ],
+    'fascia' => [
+        [
+            'title' => 'DIGITAL COMICS',
+            'link' => '../../resources/img/buy-comics-digital-comics.png',
+        ],
+        [
+            'title' => 'DC MERCHANDISE',
+            'link' => '../../resources/img/buy-comics-merchandise.png',
+        ],
+        [
+            'title' => 'SUBSCRIPTION',
+            'link' => '../../resources/img/buy-comics-subscriptions.png',
+        ],
+        [
+            'title' => 'COMIC SHOP PORTAL',
+            'link' => '../../resources/img/buy-comics-shop-locator.png',
+        ],
+        [
+            'title' => 'DC POWER VISA',
+            'link' => '../../resources/img/buy-dc-power-visa.svg',
+        ],
+    ],
 ];
