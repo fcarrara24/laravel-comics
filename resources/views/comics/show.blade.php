@@ -17,7 +17,7 @@
 
 <body>
     @include('partials.header')
-    {{-- @include('partials.jumbotron') --}}
+    @include('partials.jumbotron')
     @include('partials.singleComic')
     @include('partials.bottom')
     @include('partials.footer')

@@ -1,6 +1,6 @@
 <div id="containerHeader">
     <div class=" d-flex flex-row justify-content-evenly container py-2 ">
-        <div class="subcontainer-header d-flex flex-row justify-content-start align-items-center w-max-content">
+        <div class="subcontainer-header d-flex flex-row justify-content-start align-items-center w-max-content" href>
             <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="jumbotron">
         </div>
         <div class="d-flex flex-row justify-content-between gap-5 ">

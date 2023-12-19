@@ -13,7 +13,7 @@
                     </div>
                     <div class=" text-white pb-3">{{ $comic['series'] }}</div>
                     <div class="btn btn-primary">
-                        <a href="{{ route('layouts.show', $key) }}"
+                        <a href="{{ route('comics.show', $key) }}"
                             class="text-white text-decoration-none ">INFORMAZIONI</a>
                     </div>
                 </div>

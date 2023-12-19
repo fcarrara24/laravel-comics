@@ -16,18 +16,18 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $database = config('db');
     return view('home', compact('database'));
-})->name('layouts.index');
+})->name('comics.index');
 
-Route::get('/layouts/{id}', function ($id) {
+Route::get('/comics/{id}', function ($id) {
     $db = config('db');
     //dd($db);
     if ($id >= 0 && $id < count($db['comics'])) {
         $comic = $db['comics'][$id];
-        return view('layouts.show')
+        return view('comics.show')
             ->with('comic', $comic)
             ->with('database', $db);
     } else {
         //indica direttamente la pagina che non è stata trovata
         abort(404);
     }
-})->name('layouts.show');
+})->name('comics.show');
