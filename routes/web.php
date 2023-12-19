@@ -16,4 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $database = config('db');
     return view('home', compact('database'));
+})->name('home');
+
+Route::get('/about', function () {
+    $database = config('db');
+    return view('home', compact('database'));
 });

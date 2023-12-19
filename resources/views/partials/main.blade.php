@@ -6,12 +6,12 @@
         </div>
         <div class="row ">
             @foreach ($database['comics'] as $comic)
-                <div class="w-25" style=" max-height: 60%;" >
+                <div class="w-25" style=" max-height: 60%;">
                     <div class="img-container  overflow-hidden " style="max-width: 100%; max-height: 60%; ">
                         <img src="{{ $comic['thumb'] }}" alt="$comic['title']" srcset=""
-                            style="max-width: 100%; width: 100%; max-height: 60%">
+                            style="max-width: 100%; width: 100%; max-height: 100%">
                     </div>
-                    <div class=" text-white">{{ $comic['title'] }}</div>
+                    <div class=" text-white">{{ $comic['series'] }}</div>
                 </div>
             @endforeach
         </div>

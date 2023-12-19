@@ -15,10 +15,10 @@
         </div>
         <div class="d-flex flex-column justify-content-center align-items-end ">
             <div class="d-flex flex-row justify-content-end align-content-center">
-                <div>
-                    Search
-                </div>
-                <i class="fa-solid fa-search"></i>
+                <span>
+                    Search <i class="fa-solid fa-search"></i>
+                </span>
+
             </div>
 
         </div>
